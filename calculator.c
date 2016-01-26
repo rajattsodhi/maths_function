@@ -31,12 +31,16 @@ int main()
         case 'a':
 	    i=0;
 	    num=0;
-	   
 	    while(num!=-1 || i<5)
 	    printf("Enter a number, -1 to stop maximum 5 numbers and minimum 1 number: ");
             scanf("%f",&num);
 	    arr[i]=num;
             printf("%.1f / %.1f = %.1f",num1, num2, num1/num2);
+            break;
+        case '%':
+	    printf("Enter two operands: ");
+            scanf("%f%f",&num1,&num2);
+            printf("%.1f % %.1f = %.1f",num1, num2, num1%num2);
             break;
         
        
