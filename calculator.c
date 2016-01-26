@@ -4,7 +4,7 @@ int main()
     float num1,num2;
     int i;
     float arr[5],num;
-    printf("Enter operator either + or - or * or divide : or average a ");
+    printf("Enter operator either\n+\n-\n*\n: divide\na average ");
     scanf("%c",&o);
     
     switch(o) {
