@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /This is the line causing issue in the master branch
+=======
+//This is the line causing issue in the conflict branch
+>>>>>>> conflict
 int main()
 {
     char o;
